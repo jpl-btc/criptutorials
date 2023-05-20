@@ -43,18 +43,35 @@ const AboutTwo = () => {
                   <h3>Autor del CripTutorials</h3>
                 </div>
                 <div className="about-text">
-                  <p> TIPS: ⚡jplaclau@getalby.com | ⚡jpl@hodl.ar</p>
+                  <p> TIPS: ⚡jplaclau@getalby.com | ⚡jpl@hodl.ar </p>
                   <p>
-                    Después de un par de meses aprendiendo programación de
-                    manera autodidacta, quería encontrar otras personas con
-                    quien hablar mientras aprendía para no sentirme tan solo en
-                    el viaje de #learn2code. Pase por varias comunidades hasta
-                    que encontré La Crypta, y planté ahí mi banderín. Estoy
-                    descubriendo que programar me da paz mental, y me hace
-                    feliz. Espero que mis videos aporten valor en la vida de
-                    otras personas. Gracias 😊 .{" "}
+                    Arranque el 2023 aprendiendo programación solo o
+                    "pseudo-autodidacta": videos tutoriales y academias online.
+                    Después de un par de meses, quería encontrar otras personas
+                    con quien hablar mientras aprendía. Para ver como iba
+                    progresando respecto a otros y no sentirme tan aislado. Pase
+                    por varias comunidades hasta que encontré{" "}
+                    <a
+                      title="La Crypta"
+                      href="https://www.lacrypta.com.ar/"
+                      target="_blank"
+                    >
+                      La Crypta
+                    </a>
+                    . Y acá me quedé. Estoy descubriendo que programar me da paz
+                    mental, y me hace feliz. Espero que mis videos aporten valor
+                    en la vida de otras personas. Gracias 😊 .{" "}
                   </p>
-                  <p>Nostr: </p>
+                  <p>
+                    Nostr:{" "}
+                    <a
+                      title="jpl@hodl.ar"
+                      href="https://iris.to/jplaclau"
+                      target="_blank"
+                    >
+                      jpl@hodl.ar
+                    </a>
+                  </p>
                   <p>
                     npub1kqp22llek97fvjk6u4zranwv99j75469t4g9cm5r6h0zrfswejjssnpvad
                   </p>

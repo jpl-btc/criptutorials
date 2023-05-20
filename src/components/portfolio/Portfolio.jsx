@@ -15,8 +15,8 @@ const breakpointColumnsObj = {
 const tabList = [
   "Todos👀",
   "Alby🐝",
-  "₿itcoin & LN⚡",
   "Nostr🦩",
+  "₿itcoin & LN⚡",
   "Developers🌎🖥️",
 ];
 const tabListContent = [
