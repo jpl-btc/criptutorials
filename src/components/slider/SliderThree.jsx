@@ -19,7 +19,7 @@ const SliderTwo = () => {
         className="home-banner home-banner-two"
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + "/img/slider/CripTutorialsv2.jpg"
+            process.env.PUBLIC_URL + "/img/slider/CripTutorialsv3.jpg"
           })`,
         }}
       >
