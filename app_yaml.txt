@@ -1,0 +1,34 @@
+This is a Fake app.yaml file, without the env_variables
+
+runtime: nodejs18 # or another supported version
+
+#instance_class: F2
+#env: legacy
+
+#manual_scaling:
+#instances: 1
+
+#resources:
+#cpu: 1
+#memory_gb: 0-5
+#disk_size_gb: 10
+
+#env_variables:
+#  BUCKET_NAME: "code-bucket"
+
+handlers:
+  - url: /static
+    static_dir: build/static
+
+  - url: /(.*\.(json|ico|js|png|jpg|pdf))$
+    static_files: build/\1
+    upload: build/.*\.(json|ico|js|png|jpg|pdf)$
+
+  - url: .*
+    static_files: build/index.html
+    upload: build/index.html
+
+env_variables:
+  REACT_APP_SERVICE_ID: "secret_key"
+  REACT_APP_TEMPLATE_ID: "secret_key"
+  REACT_APP_USER_ID: "secret_key"
